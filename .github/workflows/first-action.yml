@@ -1,0 +1,9 @@
+name: Run Shell Commands
+on: [push]
+job: 
+name: Run Shell Commands
+  my-first-shell-excecution:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display the output of echo commands
+        run: echo "this is my first workflow run"
