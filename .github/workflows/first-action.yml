@@ -1,7 +1,6 @@
-name: Run Shell Commands
-on: [push]
-jobs: 
 name: Run shell commands
+on: [push]
+jobs:
   my-first-shell-execution:
     runs-on: ubuntu-latest
     steps:
