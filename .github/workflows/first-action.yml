@@ -1,8 +1,8 @@
 name: Run Shell Commands
 on: [push]
-job: 
-name: Run Shell Commands
-  my-first-shell-excecution:
+jobs: 
+name: Run shell commands
+  my-first-shell-execution:
     runs-on: ubuntu-latest
     steps:
       - name: Display the output of echo commands
